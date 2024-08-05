@@ -1,4 +1,5 @@
 # InstaTranslate
+<<<<<<< HEAD
 
 **InstaTranslate** is a Chrome extension that allows users to translate selected text from any language to a target language using the MyMemory translation API. It supports both automatic and manual translation modes and includes various language options.
 
@@ -31,3 +32,6 @@ Feel free to contribute to this project by submitting issues or pull requests. P
 
 This project is licensed under the MIT License.
 
+=======
+A Chrome extension that translates selected text from any language to your desired language using the MyMemory API. It features both automatic and manual translation modes and supports multiple languages, including English, Arabic, Spanish, French, German, and Chinese.
+>>>>>>> f679e675506b3b8da95614eca39102de7358fb3e
