@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Translator Options</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 10px;
+            width: 200px;
+        }
+        label {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Translation Options</h2>
+    <label>
+        <input type="checkbox" id="autoTranslateCheckbox">
+        Automatic Translation
+    </label>
+    <label>
+        <span>Source Language:</span>
+        <select id="sourceLanguageSelect">
+            <option value="en">English</option>
+            <option value="ar">Arabic</option>
+            <option value="es">Spanish</option>
+            <option value="fr">French</option>
+            <option value="de">German</option>
+            <option value="zh">Chinese</option>
+            <!-- Add more languages as needed -->
+        </select>
+    </label>
+    <label>
+        <span>Target Language:</span>
+        <select id="languageSelect">
+            <option value="ar">Arabic</option>
+            <option value="es">Spanish</option>
+            <option value="fr">French</option>
+            <option value="de">German</option>
+            <option value="zh">Chinese</option>
+            <!-- Add more languages as needed -->
+        </select>
+    </label>
+    <script src="popup.js"></script>
+</body>
+</html>
